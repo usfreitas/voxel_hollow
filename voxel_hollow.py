@@ -51,7 +51,8 @@ def is_mode_object(context):
     return context.mode == 'OBJECT'
 
 def is_active_object_mesh(context):
-    return context.active_object is not None and context.active_object.type == 'MESH'
+    active_object = context.active_object
+    return active_object is not None and active_object.type == 'MESH' and active_object.select_get() 
 
 class OBJECT_PT_hollow(Panel):
     bl_space_type = "VIEW_3D"
