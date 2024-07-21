@@ -2,6 +2,17 @@
 A Blender add-on for hollowing out meshes 
 
 ## Installing
+### Blender 4.2 
+This tool is now integrated in the `3D Print Toolbx` add-on, which is 
+available as an [extension](https://extensions.blender.org/add-ons/print3d-toolbox/)
+and can be downloaded/installed directly from Blender itself.
+
+If you have the 4.2 (or a newer) Blender, don´t bother with `voxel_hollow`,
+just install the `3D Print Toolbox`. It has the same functionality, plus
+other useful stuff.
+
+### Older Blender versions (3.6 up to 4.1)
+
 Download the file `voxel_hollow.py`. Start Blender, go to Edit -> 
 Preferences -> Add-ons -> Install and pick the downloaded file. Then enable 
 the add-on.
